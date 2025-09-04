@@ -2,7 +2,7 @@
   "name": "My Awesome PWA",
   "short_name": "MyPWA",
   "description": "A PWA with a different UI.",
-  "start_url": "/index.html",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#121212",
   "theme_color": "#6200ee",
@@ -18,4 +18,5 @@
       "type": "image/png"
     }
   ]
+
 }
