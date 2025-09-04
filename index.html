@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hybrid Web App</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://www.google.com/s2/favicons?domain=example.com" type="image/x-icon">
+</head>
+<body>
+
+    <div id="website-content">
+        <header>
+            <h1>Welcome to the Website!</h1>
+            <p>This is the full browsing experience. Navigate to different sections using the menu.</p>
+        </header>
+        <main>
+            <section class="website-section">
+                <h2>Our Services</h2>
+                <p>Learn about what we offer. This content is for general browsing.</p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Hybrid Web App</p>
+        </footer>
+    </div>
+
+    <div id="pwa-content" class="pwa-hidden">
+        <header class="pwa-header">
+            <h1 class="pwa-title">My App</h1>
+            <div class="pwa-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+            </div>
+        </header>
+        <main class="pwa-main">
+            <h2>PWA Dashboard</h2>
+            <button class="pwa-button">Do a Task</button>
+            <p>This is the app-like experience for quick actions.</p>
+        </main>
+        <nav class="pwa-nav">
+            <a href="#" class="pwa-nav-item">Home</a>
+            <a href="#" class="pwa-nav-item">Profile</a>
+            <a href="#" class="pwa-nav-item">Settings</a>
+        </nav>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
